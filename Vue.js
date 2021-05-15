@@ -127,6 +127,7 @@ class Dep{
     }
     //添加观察的对象
     addSubs(Watcher){
+      console.log(Watcher);
         this.subs.push(Watcher)
     }
     //通知观察者进行数据更新
