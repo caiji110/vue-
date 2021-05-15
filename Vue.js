@@ -63,7 +63,7 @@ function Compile(el,vm){
   vm.$el.appendChild(fragment);
 
   function replace(node){
-     
+     console.log(node);
     const regMustache = /\{\{\s*(\S+)\s*\}\}/
     //进行替换(文本节点)
     if(node.nodeType === 3){
